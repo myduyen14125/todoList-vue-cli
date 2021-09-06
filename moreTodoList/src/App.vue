@@ -74,7 +74,7 @@ export default {
     color: white;
 }
 body{
-    background: #645ce4;
+    background: linear-gradient(45deg, white, rgb(144, 112, 196));
     height: 120vh;
 }
 ul{

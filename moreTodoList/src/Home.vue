@@ -1,7 +1,7 @@
 <template>
   <div class="home">
       <div id="tolist">
-        <h1>To do List</h1>
+        <h1>Todo List</h1>
 
         <div v-if="!isEditing" style="margin-bottom: 5vh;">
           <input type="text" v-model="currentInput" v-on:keyup.enter="storeList" placeholder="What's need to be done?"/>
